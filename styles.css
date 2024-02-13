@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #9fb575;
+    
+}
+h1{
+  text-align: center;
+  margin-top: 8px;
+  font-size: 67px;
+  color: #3c2f2f;
+}
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    border: 3px solid #3c2f2f;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(168, 134, 110);
+    animation: ani 3s linear 0s infinite ;
+  }
+  @keyframes ani{
+    from{ background-color: rgb(168, 134, 110)}
+    to{background-color: rgb(115, 129, 116)}
+  }
+  input {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size:50px;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 29px;
+    border-radius:7%;
+    border: none;
+    cursor: pointer;
+    background-color: #f8e9e9;
+  }
+  
+  button:hover {
+    background-color: #aa5959;
+  }
+  
